@@ -1,7 +1,7 @@
 # Appium_Scroller
-//		******Scroll in app using appium.********
+//		********************Scroll in app using appium.***************
 
-Dimension di = driver.manage().window().getSize();
+					Dimension di = driver.manage().window().getSize();
 					int height = di.getHeight();
 					int width = di.getWidth();
 					TouchAction ts = new TouchAction(driver);
